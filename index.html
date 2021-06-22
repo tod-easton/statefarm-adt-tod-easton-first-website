@@ -33,12 +33,42 @@
 
         <img class="fit-picture" src="C:\Users\todea\Documents\SDI\gitRepo\Tier2\statefarm-adt-tod-easton-first-website/Marvin.jpg" height="300" width="300">
 
-        <video controls width="250">
-            <source src="https://www.youtube.com/watch?v=qu9gva2LZBw"
-            type="video/webm">
-        </video>
+        <section>
+            <video controls width="250">
+                <source src="https://www.youtube.com/watch?v=qu9gva2LZBw"
+                type="video/webm">
+            </video>
+        </section>
 
-        <a href="favorites.html">My Favorites</a>
+        <section>
+            <a href="favorites.html">My Favorites</a>
+        </section>
+
+        <form>
+            <label>
+                Student Name
+                <input type="text" name="studentName"/>
+            </label>
+            <label>
+                Favorite Color
+                <input type="color" name="favoriteColor"/>
+            </label>
+            <label>
+                Fastest you have ever driven a car (MPH)
+                <input type="number" name="MPH"/>
+            </label>
+            <label>
+                Current time
+                <input type="time" name="currentTime"/>
+            </label>
+            <label>
+                Are you wearing blue?
+                <input type="checkbox" id="yes" name="blueYes"/>
+                <label for="yes">Yes</label>
+                <input type="checkbox" id="no" name="blueNo"/>
+                <label for="no">No</label>
+            </label>
+        </form>
 
     </body>
 </html>
